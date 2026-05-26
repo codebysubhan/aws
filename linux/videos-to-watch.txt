@@ -1,0 +1,39 @@
+Video 43: What is $PATH on a Linux Shell?
+
+Video 63: Data Streams (stdin, stdout & stderr) (Crucial for pipeline error handling)
+
+Video 68: Public Key Authentication (How SSH keys work for GitHub and Cloud instances)
+
+Video 73: The /etc/fstab file
+
+Video 75: Everything You Need to Know for Formatting and Mounting Disks (Essential for cloud storage volumes)
+
+Video 76: systemd: Using the systemctl command
+
+---
+
+Video 10: journalctl Basics: How to Easily Check Your Linux Logs
+
+Video 11: How to use the nslookup command to query DNS
+
+Video 13: How to Use the ip Command in Linux
+
+Video 16: How to Use the ss Command
+
+Video 20: How to Use the dig Command in Linux
+
+Video 44: Understanding Logging
+
+---
+
+Video 34: The lsof Command (Finds what process is occupying a port or file)
+
+Video 57: The grep Command
+
+Video 70: awk
+
+Video 71: The sed Command (57, 70, and 71 are used to automatically parse logs and files in CI/CD)
+
+Video 74: Managing Users
+
+Video 79: Understanding File & Directory Permissions (The foundation of access security)
