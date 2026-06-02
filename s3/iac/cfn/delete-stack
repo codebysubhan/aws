@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo "== deleting stack for s3 bucket using cfn =="
+
+# create-stack and delete-stack are older versions and both of them are consolodated into `deploy` in newer versions
+
+STACK_NAME="cfn-s3-simple"
+
+aws cloudformation delete-stack \
+--stack-name $STACK_NAME

@@ -1,0 +1,14 @@
+# aws s3 cloud formation
+
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A simple S3 bucket
+# https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-s3-bucket.html
+# Resources section
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    # don't need to supply the following code lines, it can automatically identify and generate random bucket names
+    # DeletionPolicy: Retain
+    #   Properties:
+    #     BucketName: DOC-EXAMPLE-BUCKET
+    #     BucketName: DOC-EXAMPLE-BUCKET
