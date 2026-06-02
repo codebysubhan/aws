@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+echo "== Delete Bucket =="
+
+if [ -z "$1" ]; then
+    echo "There needs to be a bucket name e.g. ./delete-bucket my-bucket-name"
+    exit 1
+fi
+
+# https://docs.aws.amazon.com/cli/latest/reference/s3api/delet-bucket.html
+BUCKET_NAME=$1
+aws s3api delete-bucket \
+--bucket $BUCKET_NAME \
+--query Location \
+--output text
+
+# check if we have a --dry-run flag in newer versions because I got an error when I used it so there might be availability in a coming release or v2
