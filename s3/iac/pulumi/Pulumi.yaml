@@ -1,0 +1,10 @@
+name: s3-simple-sdk-python
+description: A aws project using python pulumi
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

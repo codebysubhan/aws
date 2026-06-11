@@ -1,0 +1,13 @@
+{
+  "workbench.editorAssociations": {
+    "*.md": "default"
+  },
+  "markdown.editor.filePaste.enabled": "always",
+  "markdown.editor.filePaste.copyIntoWorkspace": "mediaFiles",
+  "markdown.copyFiles.destination": {
+    "**/*": "images/"
+  },
+  "markdown.copyFiles.overwriteBehavior": "nameIncrementally",
+  "pasteImage.path": "${currentFileDir}/images",
+  "pasteImage.basePath": "${currentFileDir}"
+}
