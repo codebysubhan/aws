@@ -58,3 +58,8 @@ Even though s3 is a globally available service but we need to specify a reigon w
 
 - CFN can be used in various ways but terraform provides more control over the objects in a sense that even an object can be dealt as an infrastructure while CFN can't do that.
 
+### S3 checksum:
+- Checksum reference ![](images/2026-06-11-16-17-35.png)
+- ETags and Checksums are very different because an ETag is used to track the changes in a file from the perspective of the developer programmatically and Checksum is used to ensure data integrity of the file being uploaded or downloaded from the aws bucket.
+- The most accurate way to look at it is that a Checksum is a mathematical concept used for integrity, while an ETag (Entity Tag) is an HTTP protocol feature used for web caching and concurrency control, which uses checksums under the hood.
+
