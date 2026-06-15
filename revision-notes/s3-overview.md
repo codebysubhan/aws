@@ -102,3 +102,39 @@ Even though s3 is a globally available service but we need to specify a reigon w
 
 ![](images/2026-06-15-13-02-14.png)
 
+# One Zone lowest latency bucket type
+![](images/2026-06-15-13-24-47.png)
+
+- S3 Express One Zone is ideal for compute-heavy applications processing millions of small objects per second right alongside AWS compute resources.
+
+# S3 One Zone IA
+![](images/2026-06-15-13-31-50.png)
+
+# Glacier Storage Classes and Glacier Vault
+- It uses Vaults instead of buckets
+![](images/2026-06-15-13-34-38.png)
+
+# Glacier Instant Retrieval
+![](images/2026-06-15-13-37-15.png)
+
+# Glacier Flexible Retrieval
+![](images/2026-06-15-13-44-30.png)
+
+# Glacier Deep Archive
+![](images/2026-06-15-13-46-05.png)
+
+# Intelligent Tiering
+![](images/2026-06-15-13-48-06.png)
+
+# Storage Class Comparison
+![](images/2026-06-15-13-54-18.png)
+
+# S3 Security Overview
+![](images/2026-06-15-13-58-49.png)
+
+## S3 Block Public Access
+![](images/2026-06-15-14-01-01.png)
+
+## S3 ACL (Access Control Lists)
+![](images/2026-06-15-14-02-05.png)
+
