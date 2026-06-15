@@ -63,3 +63,6 @@ Even though s3 is a globally available service but we need to specify a reigon w
 - ETags and Checksums are very different because an ETag is used to track the changes in a file from the perspective of the developer programmatically and Checksum is used to ensure data integrity of the file being uploaded or downloaded from the aws bucket.
 - The most accurate way to look at it is that a Checksum is a mathematical concept used for integrity, while an ETag (Entity Tag) is an HTTP protocol feature used for web caching and concurrency control, which uses checksums under the hood.
 
+### S3 Object - prefixes
+![](images/2026-06-12-15-47-10.png)
+
