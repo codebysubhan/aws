@@ -66,3 +66,10 @@ Even though s3 is a globally available service but we need to specify a reigon w
 ### S3 Object - prefixes
 ![](images/2026-06-12-15-47-10.png)
 
+### S3 Objects - metadata
+![](images/2026-06-15-11-42-42.png)
+
+![](images/2026-06-15-11-44-24.png)
+
+![](images/2026-06-15-11-45-19.png)
+
