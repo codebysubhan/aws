@@ -73,3 +73,32 @@ Even though s3 is a globally available service but we need to specify a reigon w
 
 ![](images/2026-06-15-11-45-19.png)
 
+# WORM (Write Once Read Many)
+![](images/2026-06-15-12-18-25.png)
+
+### S3 Object Lock
+![](images/2026-06-15-12-19-41.png)
+
+![](images/2026-06-15-12-20-04.png)
+
+# S3 Bucket URI
+![](images/2026-06-15-12-22-31.png)
+
+# AWS S3 CLI
+![](images/2026-06-15-12-24-43.png)
+
+# AWS S3 Request Styles
+![](images/2026-06-15-12-31-31.png)
+
+# S3 DualStack Endpoints
+![](images/2026-06-15-12-33-29.png)
+
+# S3 Storage Classes Overview
+![](images/2026-06-15-12-37-57.png)
+
+![](images/2026-06-15-12-40-21.png)
+
+![](images/2026-06-15-12-41-57.png)
+
+![](images/2026-06-15-13-02-14.png)
+
