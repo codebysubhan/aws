@@ -138,3 +138,6 @@ Even though s3 is a globally available service but we need to specify a reigon w
 ## S3 ACL (Access Control Lists)
 ![](images/2026-06-15-14-02-05.png)
 
+## S3 bucket policies
+![](images/2026-06-15-16-10-41.png)
+
