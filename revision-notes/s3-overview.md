@@ -158,3 +158,28 @@ Even though s3 is a globally available service but we need to specify a reigon w
 
 ![](images/2026-06-16-14-34-49.png)
 
+## S3 Encryption
+![](images/2026-06-16-16-04-45.png)
+
+![](images/2026-06-16-16-06-13.png)
+
+![](images/2026-06-16-16-08-02.png)
+
+![](images/2026-06-16-16-09-06.png)
+
+![](images/2026-06-16-16-10-02.png)
+
+![](images/2026-06-16-16-10-24.png)
+
+![](images/2026-06-16-16-10-56.png)
+
+![](images/2026-06-16-16-31-35.png)
+
+failed attempt:
+![](images/2026-06-16-16-38-17.png)
+
+correct one:
+![](images/2026-06-16-16-48-16.png)
+
+![](images/2026-06-16-16-49-04.png)
+
