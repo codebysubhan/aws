@@ -141,3 +141,20 @@ Even though s3 is a globally available service but we need to specify a reigon w
 ## S3 bucket policies
 ![](images/2026-06-15-16-10-41.png)
 
+## IAM policies and bucket policies difference
+![](images/2026-06-16-14-25-44.png)
+
+## Access Grants
+![](images/2026-06-16-14-26-56.png)
+
+## IAM Access Analyzer for S3
+![](images/2026-06-16-14-28-10.png)
+
+## Internetwork Traffic Privacy
+![](images/2026-06-16-14-30-42.png)
+
+## CORS
+![](images/2026-06-16-14-32-41.png)
+
+![](images/2026-06-16-14-34-49.png)
+
