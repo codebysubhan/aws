@@ -183,3 +183,10 @@ correct one:
 
 ![](images/2026-06-16-16-49-04.png)
 
+## S3 Bucket Key
+![](images/2026-06-17-13-08-09.png)
+
+## S3 Client Side Encryption
+This is very different from the SSE-C as in SSE-C the server is applying the decrytion using the KMS server. But in this S3 CLient side encrytion the server is not involved instead the encrytion and decryption happens at the same end on client side.
+![](images/2026-06-17-13-11-11.png)
+
