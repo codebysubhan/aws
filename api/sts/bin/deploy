@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# https://docs.aws.amazon.com/cli/latest/reference/cloudformation/deploy.html
+
+aws cloudformation deploy \
+--template-file template.yaml \
+--stack-name my-sts-fun-stack-12 \
+--region ap-south-1

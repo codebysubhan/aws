@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Create a role for us to assume and create a resource that we'll have access to
+# Resources section
+Parameters:
+  BucketName:
+    Type: String
+    Default: "sts-fun-sa-3452"
+Resources:
+# add a s3 bucket creation resource here with default profile and then we can use that bucket's arn for assuming the role for that resource
+  StsRole: 
+    Type: "AWS::IAM::Role"
+    Properties: 
+      AssumeRolePolicyDocument: 
+        Version: "2012-10-17"
+        Statement: 
+          - Effect: "Allow"
+            Principal: 
+              AWS: "arn...." # put the arn of the user/sts-machine-user
+              # Service: 
+              #   - "s3.amazonaws.com"
+            Action: 
+              - "sts:AssumeRole"
+      Path: "/"
+  RolePolicies: 
+    Type: "AWS::IAM::Policy"
+    Properties: 
+      PolicyName: "s3access"
+      PolicyDocument: 
+        Version: "2012-10-17"
+        Statement: 
+          - Effect: "Allow"
+            Action: "*"
+            Resource: [
+             !Sub "arn:aws:s3:::${BucketName}",
+             !Sub "arn:aws:s3:::${BucketName}/*"
+            ]
