@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+
+if [ -z "$1" ]; then
+    echo "provide vpc id"
+else
+    export VPC_ID="$1"
+fi
+
+# detach the IGW
+
+
+
+# delete the IGW
+
+
+# delete vpc
+
+
+
+aws ec2 delete-vpc --vpc-id $VPC_ID
